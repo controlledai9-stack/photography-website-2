@@ -1,0 +1,95 @@
+{
+  "generatedAt": "2026-10-13T15:40:37.506Z",
+  "albums": [
+    {
+      "title": "Fashion",
+      "slug": "fashion",
+      "cover": "client-work/fashion/01-cover.jpg",
+      "images": [
+        "client-work/fashion/01-cover.jpg",
+        "client-work/fashion/02-work.jpg"
+      ]
+    },
+    {
+      "title": "People",
+      "slug": "people",
+      "cover": "client-work/people/01-cover.jpg",
+      "images": [
+        "client-work/people/01-cover.jpg",
+        "client-work/people/02-work.jpg"
+      ]
+    },
+    {
+      "title": "Products",
+      "slug": "products",
+      "cover": "client-work/products/01-cover.jpg",
+      "images": [
+        "client-work/products/01-cover.jpg",
+        "client-work/products/02-work.jpg"
+      ]
+    },
+    {
+      "title": "Food",
+      "slug": "food",
+      "cover": "client-work/food/01-cover.jpg",
+      "images": [
+        "client-work/food/01-cover.jpg",
+        "client-work/food/02-work.jpg"
+      ]
+    },
+    {
+      "title": "Interior",
+      "slug": "interior",
+      "cover": "client-work/interior/01-cover.jpg",
+      "images": [
+        "client-work/interior/01-cover.jpg",
+        "client-work/interior/02-work.jpg"
+      ]
+    },
+    {
+      "title": "Beauty",
+      "slug": "beauty",
+      "cover": "client-work/beauty/01-cover.jpg",
+      "images": [
+        "client-work/beauty/01-cover.jpg",
+        "client-work/beauty/02-work%20(2).jpg"
+      ]
+    },
+    {
+      "title": "Conceptual",
+      "slug": "conceptual",
+      "cover": "client-work/conceptual/01-cover.jpg",
+      "images": [
+        "client-work/conceptual/01-cover.jpg"
+      ]
+    },
+    {
+      "title": "Exhibitions",
+      "slug": "exhibitions",
+      "cover": "client-work/exhibitions/01-cover.jpg",
+      "images": [
+        "client-work/exhibitions/01-cover.jpg",
+        "client-work/exhibitions/02-work.jpg"
+      ]
+    },
+    {
+      "title": "Fine Art",
+      "slug": "fine-art",
+      "cover": "client-work/fine-art/01-cover.jpg",
+      "images": [
+        "client-work/fine-art/01-cover.jpg",
+        "client-work/fine-art/02-work.jpg"
+      ]
+    },
+    {
+      "title": "Portraits",
+      "slug": "portraits",
+      "cover": "client-work/portraits/01-cover.jpg",
+      "images": [
+        "client-work/portraits/01-cover.jpg",
+        "client-work/portraits/02-work.jpg",
+        "client-work/portraits/Sports%20Sponsorship%20Opportunity%202026%20(1).png"
+      ]
+    }
+  ]
+}
