@@ -8,13 +8,9 @@ The website is generated from the `albums` folder.
 - Run `npm run dev` for a localhost preview that automatically detects added, replaced, and deleted images. Refreshing the page also checks the folders before serving it.
 - Run `npm run build` before deploying. On GitHub Pages, Cloudflare Pages, or Netlify, set the build command to `npm run build` and publish directory to `dist`; every pushed folder or image then appears automatically.
 
-## Google AI Studio deployment
+## GitHub Pages deployment
 
-Import this repository into Google AI Studio. The production command is `npm start`; it respects Google Cloud Run's `PORT` environment variable and rebuilds the gallery from `albums` when the service starts.
-
-To update the portfolio, add or remove images in the album folders, commit the changes to GitHub, sync/import the updated repository in AI Studio, and publish a new revision. Create a new folder inside `albums` to create a new album automatically.
-
-Changes made in the AI Studio workspace become live after publishing a new revision. A deployed Cloud Run service cannot permanently monitor folders on somebody's computer, and its local filesystem is temporary. Persistent uploads made after deployment require external storage, such as Cloud Storage, and an authenticated administration interface.
+The included GitHub Actions workflow builds and publishes the original website directly to GitHub Pages whenever `main` changes. In the repository, open **Settings → Pages** and select **GitHub Actions** as the source once. After that, adding, replacing, or deleting images under `albums` and pushing the commit automatically rebuilds the live gallery.
 
 ```text
 albums/
