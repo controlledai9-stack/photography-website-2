@@ -1,5 +1,7 @@
 # Folder-driven photography portfolio
 
+For the client-friendly MacBook update process, see [CLIENT-GUIDE.md](CLIENT-GUIDE.md).
+
 The website is generated from the `albums` folder.
 
 - Create a folder inside `albums` to create a new album on the home page.
